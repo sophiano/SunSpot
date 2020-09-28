@@ -8,6 +8,10 @@ Created on Thu May  7 17:30:50 2020
 import numpy as np 
 from sklearn.utils import resample
 
+import sys
+sys.path.insert(0, '../Sunspot/')
+sys.path.insert(1, '../')
+
 import BB_methods as BB
 
 def ARL0_CUSUM_MV(data, L_plus, L_minus=None, delta=1.5, k=None, nmc=4000,
