@@ -12,7 +12,7 @@ setuptools.setup(
     long_description = long_description,
     long_description_content_type = "text/markdown",
     url = "https://github.com/sophiano/SunSpot",
-    packages = setuptools.find_packages(where='SunSpot'),
+    packages = setuptools.find_packages(),
     classifiers = [
         # How mature is this project? Common values are
         #   3 - Alpha
