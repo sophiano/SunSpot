@@ -32,4 +32,6 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
     data_files=[('Ns', ['data/Ns'])],
+    include_package_data=True,
+    package_data={'': ['data/*']},
 )
