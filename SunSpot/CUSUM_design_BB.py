@@ -11,6 +11,7 @@ from sklearn.utils import resample
 import sys
 sys.path.insert(0, '../Sunspot/')
 sys.path.insert(1, '../')
+sys.path.insert(2, '..')
 
 import BB_methods as BB
 
