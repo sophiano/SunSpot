@@ -14,7 +14,7 @@ from scipy.stats import halfnorm
 from sklearn.metrics import plot_confusion_matrix
 from scipy import interpolate
 
-import BB_methods as BB
+from SunSpot import BB_methods as BB
 
 def selection_input_vector(data, delta_min, L, block_length, k=None, nmc=2000,
                            n=2000, qt=0.7, plot=True):
