@@ -8,7 +8,8 @@ Created on Wed Jul  8 14:35:31 2020
 #load useful packages
 import numpy as np
 import matplotlib.pyplot as plt
-import SVR_SVC_training as SVM
+
+from SunSpot import SVR_SVC_training as SVM
 
 
 def firstNonNan(x):
