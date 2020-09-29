@@ -31,5 +31,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    data_files=[('', ['data/Ns.txt'])],
+    data_files=[('data/', ['Ns.txt'])],
 )
