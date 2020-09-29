@@ -1,2 +1,4 @@
 # Include the data files
 recursive-include data *
+
+include data *
