@@ -1,9 +1,11 @@
-import setuptools
+#import setuptools
+from distutils.core import setup
 
 with open("README.txt", "r") as fh:
     long_description = fh.read()
 
-setuptools.setup(
+#setuptools.setup(
+setup(
     name = "SunSpot", 
     version = "0.0.1",
     author = "Sophie Mathieu",
@@ -33,5 +35,5 @@ setuptools.setup(
     python_requires='>=3.6',
     #data_files=[('', ['data/Ns'])],
     include_package_data=True,
-    #package_data={'': ['data/*']},
+    package_data={'': ['data/*']},
 )
