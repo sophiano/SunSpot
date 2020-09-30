@@ -39,5 +39,4 @@ setuptools.setup(
     #data_files=[('', ['data/Ns'])],
     include_package_data=True,
     #package_data={'': ['data/*']},
-    scripts=['script.py'],
 )
