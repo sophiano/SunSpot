@@ -48,7 +48,7 @@ The datafile is composed of:
 
 ======================================
 
-These files should be opened with the python module 'pickle' such as: 
+The files are provided into .zip files. After extraction, the different objects are contained into csv files. The files are also available in a serialized format, which may be opened with the python module 'pickle' such as: 
 
 with open('data', 'rb') as file:
       my_depickler = pickle.Unpickler(file)
