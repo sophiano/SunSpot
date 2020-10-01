@@ -7,7 +7,7 @@ Files with 'all' in their extension indicate that the entire database (59 statio
 
 ======================================
 
-These files should be opened with the python module 'pickle' such as: 
+These files may be opened with the python module 'pickle' such as: 
 
 reg = pickle.load(open('../models/svr_Ns.sav', 'rb'))
 clf = pickle.load(open('../models/svc_Ns.sav', 'rb'))
