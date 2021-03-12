@@ -2,27 +2,7 @@
 data
 ===================
 
-**data_35_1947** contains the observations of 21 observatories/stations over the years 1947-2013.
 
-The datafile is composed of:
-'Ns' == number of sunspots
-'Ng' == number of sunspot groups
-'Nc' == composites (Ns + 10Ng)
-'station_names' == code names of the stations
-'time' == index of the time, expressed in fraction of years
-
-====================================
-
-**data_all_1947** contains the observations of 59 stations over the years 1947-2013.
-
-The datafile is composed of:
-'Ns' == number of sunspots
-'Ng' == number of sunspot groups
-'Nc' == composites (Ns + 10Ng)
-'station_names' == code names of the stations
-'time' == index of the time, expressed in fraction of years
-
-====================================
 
 **data_1981** contains the observations of the entire database (~278 stations) over the years 1981-2019.
 
