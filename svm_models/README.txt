@@ -10,8 +10,8 @@ Whereas files with '27' in their extension indicate that the models are trained 
 
 These files may be opened with the python module 'pickle' such as: 
 
-reg = pickle.load(open('../svm_models/svr_Ns_27.sav', 'rb'))
-clf = pickle.load(open('../svm_models/svc_Ns_27.sav', 'rb'))
+reg = pickle.load(open('../svm_models/svr_Nc_27.sav', 'rb'))
+clf = pickle.load(open('../svm_models/svc_Nc_27.sav', 'rb'))
 
 (with appropriate paths). 
 
