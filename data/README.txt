@@ -27,6 +27,10 @@ The datafile is composed of:
 
 ======================================
 
+**kisl_wolf** contains the composites (Nc) of the station KS (these data are partly missing from the database). 
+
+======================================
+
 The files are provided into .zip files. After extraction, the different objects are contained into csv files. The files are also available in a serialized format, which may be opened with the python module 'pickle' with the following python code: 
 
 with open('data', 'rb') as file:
