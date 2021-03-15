@@ -34,9 +34,9 @@ with open('data/data_1981', 'rb') as file:
     time = my_depickler.load() #time
     
 ### add new data to station KS
-data_ks = np.loadtxt('data/kisl_wolf.txt', usecols=(0,1,2,3), skiprows=1)
-Nc_ks = data_ks[9670:23914,3]
-Nc[:,24] = Nc_ks
+#data_ks = np.loadtxt('data/kisl_wolf.txt', usecols=(0,1,2,3), skiprows=1)
+#Nc_ks = data_ks[9670:23914,3]
+#Nc[:,24] = Nc_ks
 
 ### compute the long-term errors
 mu2 = err.long_term_error(Nc, period_rescaling=10, wdw=365)
