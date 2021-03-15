@@ -10,7 +10,7 @@ with open(path.join(this_directory, 'README.txt')) as f:
 
 setuptools.setup(
     name="SunSpot", 
-    version="0.0.1",
+    version="0.0.2",
     author="Sophie Mathieu",
     author_email="sph.mathieu@gmail.com",
     description="Non parametric robust monitoring of sunspot data",
@@ -18,12 +18,13 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/sophiano/SunSpot",
     packages=setuptools.find_packages(),
-    install_requires=['numpy>=1.19.1', 
-                      'scipy>=1.5.2',
-                      'matplotlib>=3.3.1',
-                      'scikit-learn>=0.23.1',
-                      'pandas>=1.1.2',
-                      'statsmodels>=0.10.1'
+    install_requires=['numpy>=1.19.5', 
+                      'scipy>=1.6.0',
+                      'matplotlib>=3.3.3',
+                      'scikit-learn>=0.24.1',
+                      'pandas>=1.2.1',
+                      'statsmodels>=0.12.1', 
+                      'kneed>=0.7.0'
                       ],
     classifiers=[
         # How mature is this project? Common values are
