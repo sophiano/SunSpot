@@ -38,7 +38,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    package_dir={'SunSpot':'SunSpot'}, 
+    #package_dir={'SunSpot':'SunSpot'}, 
     #package_data={'SunSpot': ['data/*.zip'], },
     #data_files=[('', ['data/Ns'])],
     include_package_data=True,
