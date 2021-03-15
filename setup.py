@@ -39,6 +39,7 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
     packages=['SunSpot'],
+    package_dir={'SunSpot':'SunSpot'}, 
     package_data={
       'SunSpot': ['data/*.zip'],
     },
