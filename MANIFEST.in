@@ -1,6 +1,3 @@
-# Include the data files
 recursive-include data *
-include data/Nc_27.zip
-include data/Nc_365.zip
 
 
