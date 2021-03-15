@@ -1,4 +1,5 @@
 import setuptools
+from distutils.core import setup
 
 #with open("README.txt", "r") as fh:
 #    long_description = fh.read()
@@ -36,7 +37,11 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6'
+    python_requires='>=3.6',
+    packages=['SunSpot'],
+    package_data={
+      'SunSpot': ['data/*.zip'],
+    },
     #data_files=[('', ['data/Ns'])],
     #include_package_data=True,
     #package_data={'': ['data/*']},
