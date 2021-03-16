@@ -39,8 +39,7 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
     #package_dir={'SunSpot':'SunSpot'}, 
-    package_data={'': ['data/kisl_wolf.txt']},
+    #package_data={'': ['data/kisl_wolf.txt']},
     #data_files=[('', ['data/Ns'])],
-    #include_package_data=True,
-    #package_data={'': ['data/*']},
+    include_package_data=True,
 )
