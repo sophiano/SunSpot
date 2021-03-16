@@ -1,5 +1,5 @@
-include data/kisl_wolf.txt
-#include data/Nc_27.zip
+#include the data
+include data/Nc_27.zip
 #recursive-include data *
 
 
