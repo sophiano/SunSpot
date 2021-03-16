@@ -17,11 +17,11 @@ The main functions (codes) are located inside the folder **SunSpot**.
 **data**
 The data are composed of the number of sunspots (Ns), the number of sunspot groups (Ng) and the composite (Nc=Ns+10Ng). They are located inside **data**.
 The monitoring procedure is applied on these data as examples of how to use the package. 
-The files are provided into .zip and serialized format (pickling).
+The files are provided into .zip, .txt and serialized format (pickling).
 
-**notebooks**
-Jupyter notebooks are provided in the folder **notebooks**. 
-In the notebooks, the monitoring procedure is applied to the long-term errors of Ns, Ng and Nc on two different time-scales with detailed explanations. 
+**docs**
+Jupyter notebooks are provided in the folder **dcos**. 
+In the notebooks, the monitoring procedure is applied to the long-term errors of Nc on two different time-scales with detailed explanations. 
 
 **scripts**
 The scripts associated to the notebooks are located inside the folder **scripts**.
