@@ -65,7 +65,7 @@ dataNs.outliers_removal(k=2) #remove outliers
 # K = pre.choice_K(data, dataIC, plot=True)
 
 ### standardisation
-dataNs.standardisation(K=4400) #standardisation of the data
+dataNs.standardisation(K=4600) #standardisation of the data
 dataIC = dataNs.dataIC  #IC data without deviations
 data = dataNs.data #data (IC and OC) with deviations
 
