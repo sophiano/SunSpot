@@ -160,7 +160,10 @@ reg, clf = svm.training_svr_svm(dataIC, control_limit_mv, delta_min,
 # filename = 'svc_Nc_365.sav'
 # pickle.dump(clf, open(filename, 'wb'))
 
-## or load the models previously trained
+### or load the models previously trained 
+### Those are available on github (svm_models). The following commands
+### may be used to open them (with appropriate paths).
+
 # reg = pickle.load(open('svm_models/svr_Nc_365.sav', 'rb'))
 # clf = pickle.load(open('svm_models/svc_Nc_365.sav', 'rb'))
 
