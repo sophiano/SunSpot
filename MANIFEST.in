@@ -1,5 +1,6 @@
 #include the data
 #include data/Nc_27.zip
 recursive-include data *
+recursive-include svm_models *
 
 
