@@ -15,7 +15,7 @@ This file contains functions related to the block boostrap procedures. Four meth
 This file contains a procedure to estimate automatically an appropriate value for the block length based on the data. 
 
 **cusum_design_bb**
-This file contains a set of functions to design the CUSUM chart using the block bootstrap procedures. In particular, functions for computing the ARL0 or ARL1 of the chart are implemented as well as an algorithm to adjust the control limits of the chart.
+This file contains a set of functions to design the CUSUM chart using the block bootstrap procedures. In particular, functions for computing the in-control average run length (ARL0) and out-of-control average run length (ARL1) of the chart are implemented as well as an algorithm to adjust the control limits of the chart.
 
 **svr_svc_training**
 This file includes several functions related to the support vector machine (SVM) procedures. 
