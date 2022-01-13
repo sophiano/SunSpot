@@ -42,4 +42,12 @@ The trained neural networks are saved into the folder nn_models. They are conser
 
 ## References
 
-* Mathieu, S., von Sachs, R., Delouille, V., Lef
+* Mathieu, S., von Sachs, R., Delouille, V., Lefevre, L. & Ritter, C. (2019).
+_Uncertainty quantification in sunspot counts_. The Astrophysical Journal, 886(1):7. Available on [arXiv](https://arxiv.org/abs/2009.09810).
+
+* Mathieu, S., Lefevre, L, von Sachs, R., Delouille, V., Ritter, C. & Clette, F. (2021).
+_Nonparametric monitoring of sunspot number observations: a case study_.
+Available on [arXiv](https://arxiv.org/abs/2106.13535).
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
