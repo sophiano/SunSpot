@@ -20,7 +20,7 @@ aim at prediction the shape of the deviations among three general classes:
 
 import numpy as np
 from sklearn.utils import resample
-from keras.utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 import tensorflow as tf
 from tensorflow.keras import layers
 from sklearn import metrics

@@ -16,7 +16,8 @@ import pkg_resources as pkg
 import matplotlib.pyplot as plt
 plt.rcParams['figure.figsize'] = (10.0, 6.0)
 plt.rcParams['font.size'] = 14
-from keras.models import model_from_json
+from tensorflow.keras.models import model_from_json
+from zipfile import ZipFile
 
 from SunSpot import bb_methods as bb
 from SunSpot import svm_training as svm
@@ -26,8 +27,13 @@ from SunSpot import NN_training as nn_train
 ### load data (loaded automatically with package)
 data_path = pkg.resource_filename(pkg.Requirement.parse("SunSpot"), 'data')
 
-with open(data_path + '/Nc_365', 'rb') as file:  
-#with open('data/Nc_365', 'rb') as file: #local path
+### unzip data
+with ZipFile(data_path + '/Nc_365.zip', 'r') as zipObj:
+   # Extract all the contents of zip file in current directory
+   zipObj.extractall()
+
+### depicke data
+with open('Nc_365', 'rb') as file:  
       my_depickler = pickle.Unpickler(file)
       data_stn = my_depickler.load() #standardized bias ('epsilon_{mu2}')
       time = my_depickler.load() #index of time

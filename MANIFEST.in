@@ -1,6 +1,6 @@
 # Include the data files
-include data/Nc_27
-include data/Nc_365
+include data/Nc_27.zip
+include data/Nc_365.zip
 include data/data_1981
 include data/kisl_wolf.txt
 #recursive-include data *
